@@ -1,73 +1,73 @@
 {
   "functions": {
-    "api/*.php": {
+    "API/*.php": {
       "runtime": "vercel-php@0.7.2"
     }
   },
   "routes": [
     {
-      "src": "/api/auth.php",
-      "dest": "/api/auth.php"
+      "src": "/API/auth.php",
+      "dest": "/API/auth.php"
     },
     {
-      "src": "/api/login.php",
-      "dest": "/api/login.php"
+      "src": "/API/login.php",
+      "dest": "/API/login.php"
     },
     {
-      "src": "/api/register.php",
-      "dest": "/api/register.php"
+      "src": "/API/register.php",
+      "dest": "/API/register.php"
     },
     {
-      "src": "/api/dashboard.php",
-      "dest": "/api/dashboard.php"
+      "src": "/API/dashboard.php",
+      "dest": "/API/dashboard.php"
     },
     {
-      "src": "/api/logout.php",
-      "dest": "/api/logout.php"
+      "src": "/API/logout.php",
+      "dest": "/API/logout.php"
     },
     {
-      "src": "/api/forum.php",
-      "dest": "/api/forum.php"
+      "src": "/API/forum.php",
+      "dest": "/API/forum.php"
     },
     {
-      "src": "/api/data_lahan.php",
-      "dest": "/api/data_lahan.php"
+      "src": "/API/data_lahan.php",
+      "dest": "/API/data_lahan.php"
     },
     {
-      "src": "/api/peta_panen.php",
-      "dest": "/api/peta_panen.php"
+      "src": "/API/peta_panen.php",
+      "dest": "/API/peta_panen.php"
     },
     {
-      "src": "/api/edit_profil.php",
-      "dest": "/api/edit_profil.php"
+      "src": "/API/edit_profil.php",
+      "dest": "/API/edit_profil.php"
     },
     {
-      "src": "/api/moderasi_forum.php",
-      "dest": "/api/moderasi_forum.php"
+      "src": "/API/moderasi_forum.php",
+      "dest": "/API/moderasi_forum.php"
     },
     {
-      "src": "/api/kelola_user.php",
-      "dest": "/api/kelola_user.php"
+      "src": "/API/kelola_user.php",
+      "dest": "/API/kelola_user.php"
     },
     {
-      "src": "/api/monitoring_transaksi.php",
-      "dest": "/api/monitoring_transaksi.php"
+      "src": "/API/monitoring_transaksi.php",
+      "dest": "/API/monitoring_transaksi.php"
     },
     {
-      "src": "/api/konten_edukasi.php",
-      "dest": "/api/konten_edukasi.php"
+      "src": "/API/konten_edukasi.php",
+      "dest": "/API/konten_edukasi.php"
     },
     {
-      "src": "/api/laporan.php",
-      "dest": "/api/laporan.php"
+      "src": "/API/laporan.php",
+      "dest": "/API/laporan.php"
     },
     {
-      "src": "/api/log_api.php",
-      "dest": "/api/log_api.php"
+      "src": "/API/log_api.php",
+      "dest": "/API/log_api.php"
     },
     {
       "src": "/(.*)",
-      "dest": "/api/$1.php"
+      "dest": "/API/$1.php"
     }
   ]
 }
