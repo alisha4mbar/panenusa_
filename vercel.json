@@ -1,68 +1,68 @@
 {
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.8.0"
+      "runtime": "vercel-php@0.7.2"
     }
   },
   "routes": [
     {
-      "src": "/auth/(.*)",
-      "dest": "/api/auth.php?action=$1"
+      "src": "/api/auth.php",
+      "dest": "/api/auth.php"
     },
     {
-      "src": "/login",
+      "src": "/api/login.php",
       "dest": "/api/login.php"
     },
     {
-      "src": "/register",
+      "src": "/api/register.php",
       "dest": "/api/register.php"
     },
     {
-      "src": "/dashboard",
+      "src": "/api/dashboard.php",
       "dest": "/api/dashboard.php"
     },
     {
-      "src": "/logout",
+      "src": "/api/logout.php",
       "dest": "/api/logout.php"
     },
     {
-      "src": "/forum",
+      "src": "/api/forum.php",
       "dest": "/api/forum.php"
     },
     {
-      "src": "/data-lahan",
+      "src": "/api/data_lahan.php",
       "dest": "/api/data_lahan.php"
     },
     {
-      "src": "/peta-panen",
+      "src": "/api/peta_panen.php",
       "dest": "/api/peta_panen.php"
     },
     {
-      "src": "/edit-profil",
+      "src": "/api/edit_profil.php",
       "dest": "/api/edit_profil.php"
     },
     {
-      "src": "/moderasi-forum",
+      "src": "/api/moderasi_forum.php",
       "dest": "/api/moderasi_forum.php"
     },
     {
-      "src": "/kelola-user",
+      "src": "/api/kelola_user.php",
       "dest": "/api/kelola_user.php"
     },
     {
-      "src": "/monitoring-transaksi",
+      "src": "/api/monitoring_transaksi.php",
       "dest": "/api/monitoring_transaksi.php"
     },
     {
-      "src": "/edukasi",
+      "src": "/api/konten_edukasi.php",
       "dest": "/api/konten_edukasi.php"
     },
     {
-      "src": "/laporan",
+      "src": "/api/laporan.php",
       "dest": "/api/laporan.php"
     },
     {
-      "src": "/api-logs",
+      "src": "/api/log_api.php",
       "dest": "/api/log_api.php"
     },
     {
